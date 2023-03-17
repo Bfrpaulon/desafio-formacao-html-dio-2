@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Clínica Médica - Contato</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"></head>
+    <link rel="stylesheet" href="/assets/styles/contato.css">
+<body>
+	<header>
+		<img src="/images/header-contato.jpg" alt="Imagem Contato">
+		<nav>
+			<ul>
+				<li><a href="/index.html">Página Principal</a></li>
+				<li><a href="sobre.html">Sobre a clínica</a></li>
+				<li><a href="horarios.html">Horário de Atendimento</a></li>
+				<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="contact">
+			<h1>Entre em Contato</h1>
+			<div class="contact-info">
+				<p>Telefones de Contato:</p>
+				<ul>
+					<li>Celular: (11) 98765-4321</li>
+					<li>WhatsApp: (11) 99876-5432</li>
+				</ul>
+				<p>Endereço:</p>
+				<address>Rua dos Médicos, 123 - São Paulo/SP - CEP 01234-567</address>
+			</div>
+			<div class="contact-map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.563523944542!2d-46.65423858448484!3d-23.548551166584735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce580f7ab87d11%3A0x89ff9172f1ccbd3e!2sRua%20dos%20M%C3%A9dicos%2C%20123%20-%20S%C3%A3o%20Paulo%2C%20SP%2C%2001234-567!5e0!3m2!1spt-BR!2sbr!4v1647602708126!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+			</div>
+			<form id="contact-form" method="post" action="enviar_email.php">
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="subject">Assunto:</label>
+				<input type="text" id="subject" name="subject" required>
+
+				<label for="message">Mensagem:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Enviar</button>
+				<button type="reset">Limpar</button>
+			</form>
+		</section>
+        <footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h4>Redes Sociais</h4>
+						<ul class="list-unstyled">
+							<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h4>Contato</h4>
+						<ul class="list-unstyled">
+							<li><i class="fas fa-phone"></i> (XX) XXXX-XXXX</li>
+							<li><i class="fab fa-whatsapp"></i> (XX) XXXXX-XXXX</li>
+							<li><i class="fas fa-map-marker-alt"></i> Rua XX, nº XXX, Bairro XXXX, Cidade-XX, CEP: XXXXX-XXX</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<h4>Horário de Atendimento</h4>
+						<ul class="list-unstyled">
+							<li><i class="far fa-clock"></i> Segunda a Sexta: 08h - 19h</li>
+							<li><i class="far fa-clock"></i> Sábado: 08h - 18h</li>
+							<li><i class="far fa-clock"></i> Feriados: Fechado</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

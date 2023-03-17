@@ -1,0 +1,83 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ffffff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0077c0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center;
+}
+
+footer nav {
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+footer p {
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    color: #999;
+    margin-top: 10px;
+}
