@@ -1,19 +1,15 @@
-# Módulo 3 - Trilha HTML
+# Knowledge In Focus - The Last of Us
 
-**Título:** Recriando Wikipedia, com um layout melhor :)
+Knowledge In Focus - The Last of Us is a project that aims to recreate the Wikipedia page about the video game series "The Last of Us", with a more modern and attractive layout for users.
 
-## Objetivo
-Este desafio consiste em treinar você com relação a estrutura do site, e também aplicar conhecimentos adiquiridos sobre semântica e acessibilidade.
+## Technologies Used
 
-## Desafio
-Neste repositório tem uma estrutura básica já pré-montada de um layout simples com um pouco de CSS aplicado. Apenas para deixar mais apresentável.
+The project was developed using the following technologies:
 
-Fiquem a vontade para criar da forma que desejarem, e sobre os temas que quiserem. O intuito aqui é divertir, e ao mesmo tempo aprender com o desafio.
+- HTML5
+- CSS3
+- JavaScript
 
-Sigam as intruções da chamada do vídeo. Acredito que por lá, ficará mais fácil de entenderem como proceder.
+### Front end
 
-## Links úteis
-- [Download do NVDA](https://www.nvaccess.org/download/)
-- [Wikipedia](https://pt.wikipedia.org/)
-
-
+The front-end of the project is composed of HTML, CSS and JavaScript files that define the structure, style and interaction of the page. The layout was developed with the aim of making reading and browsing the page more intuitive and pleasant for the user.
